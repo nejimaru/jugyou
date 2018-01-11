@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC|Ubuntu');
+
+body {
+  font-family: Ubuntu;
+}
+
+h1, h2, h3, h4 {
+  font-family: Spectral SC;
+}
+
+footer {
+  padding: 40px 0;
+  background-color: #eee;
+  margin-top: 40px;
+}

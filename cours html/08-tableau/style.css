@@ -1,0 +1,27 @@
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+table th {
+  background-color: black;
+  color: white;
+}
+
+table tr td:last-child {
+  text-align: center;
+}
+
+table tr:nth-last-of-type(odd) td { /* odd ou even*/
+  background-color: #eee;
+}
+
+table tr:hover td {
+  background-color: lightblue;
+}

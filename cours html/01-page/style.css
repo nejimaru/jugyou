@@ -1,0 +1,17 @@
+h1 {
+  color: blue;
+  font-size: 25px;
+  font-style: italic;
+  font-variant-caps: small-caps;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: overline underline;
+}
+
+* {
+  border: 1px solid grey;
+}
+
+header {
+  background-color: lime;
+}

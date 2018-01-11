@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+/****************  reset CSS *****************/
+/*body, html {
+  margin: 0;
+  padding: 0;
+}*/
+/**********************************************/
+body {
+  background-image: url(../img/fond.png);
+}
+
+header, main {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #B8CB21;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+}
+
+nav {
+  float: right;
+  margin: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 100px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+
+}
+
+article p {
+  text-align: justify;
+  line-height: 24px;
+}
+
+#article-gauche {
+  width: 35%;
+  float: left;
+  padding-right: 35px;
+  border-right: 0.3px solid grey;
+}
+
+#article-gauche img {
+  width: 100%;
+}
+
+#article-droite {
+  width: 65%;
+  float: right;
+  padding-left: 45px;
+}
+
+#article-droite img {
+  width: 40%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  float: left;
+}
+ article h1, article h3 {
+  color: #B8CB21;
+  font-weight: 400;
+ }
+
+article h1 {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+article .readmore {
+  background-color: #B8CB21;
+  float: right;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.clear {
+  clear: both; /* nettoie les connerie des float*/
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+}

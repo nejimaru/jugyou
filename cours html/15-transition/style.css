@@ -1,0 +1,56 @@
+
+
+.rectangle {
+  width: 500px;
+  height: 300px;
+  background-color: red;
+  transition:all 1s, width 2s;/* height 1s;*/
+  /*transition-delay: 1s ;*//*une sorte de retardateur avant les début de la transition*/
+  transform:translate(15px ,40px) rotate(145deg);
+  transform-origin: 0% 0%;
+  cursor: pointer;
+}
+
+
+.rectangle:hover {
+  background-color: blue;
+  width: 650px;
+  height:250px;
+  transform: none;
+  /*transform: rotate(145deg);*/
+}
+
+#top {
+  position:fixed;
+  bottom: 20px;
+  right: 20px;
+  color:white;
+  border-radius:50px;
+  background-color: black;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  animation-name: up-and-down;
+  animation-duration: 1s;
+  animation-iteration-count: 5; /*le nombre de fois que l'anim tounera 1 ou infinite*/
+  /*animation-delay: 3s;*/
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;/* l'anim s'arrete la ou elle est quel que soit l'endroit*/
+}
+/*#top:hover {
+  bottom: 30px;
+  transition: bottom 0.5s;
+}*/
+
+@keyframes up-and-down { /*on créer une animation et on lui donne un nom*/
+  0% { /*ou 0% ou from*/
+    bottom:20px;
+  }
+
+  /*50% { /*ou 50% ou to*/
+    /*bottom:400px;
+  }**/
+  100% {
+    bottom: 400px;
+  }
+}

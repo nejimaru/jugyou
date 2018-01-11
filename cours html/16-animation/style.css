@@ -1,0 +1,49 @@
+body {
+  background-image: url(https://orig00.deviantart.net/8918/f/2011/284/c/3/avarycce_space_texture_3_by_avarycce-d4cjx54.jpg);
+  background-size: cover;
+  overflow: hidden;
+  animation: speed 4.99s ease-in infinite;
+}
+
+img {
+  width: 100px;
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  animation: deplacement 5s ease-in infinite;
+
+}
+
+@keyframes deplacement {
+  0% {
+  }
+  20% {
+    left:30%;
+  }
+  40% {
+    left:60%;
+  }
+  60% {
+    left:30%;
+  }
+  80% {
+    left:60%;
+  }
+  90% {
+    bottom:60%;
+    left: 50%;
+  }
+  100% {
+    bottom: 100%;
+  }
+}
+
+@keyframes speed {
+  0%{
+
+  }
+  90% {
+    background-image: url(https://media1.tenor.com/images/cea1d72266eec94333e2897f8ee86bf1/tenor.gif);
+
+  }
+}

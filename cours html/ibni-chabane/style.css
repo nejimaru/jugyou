@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Dosis');
+
+body {
+  background-image: url(bg-stripes.png);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3498db;
+  padding: 9px 15%;
+  position: relative;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+}
+
+nav a, header a {
+  padding:15px 10px;
+  text-decoration: none;
+}
+
+#active {
+  background-color: white;
+}
+
+header a#logo {
+  font-family: 'Architects Daughter', cursive;
+  color: white;
+}
+section {
+  background-color: rgba(255,255,255, 0.97);
+  width: 73%;
+  margin: 0 auto;
+  padding: 1% 15%;
+  /*opacity: 0.5;*/
+  padding: 1% 2%;
+  text-align: left;
+}
+
+section p {
+  text-align: left;
+  font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  color: #16a085;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  background-color:#f39c12 ;
+  color: white;
+  padding: 6px 9px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.map {
+  width: 65%;
+}
+
+#blue {
+  color: #3498db;
+}
+
+span {
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+footer {
+  background-color: #16a085;
+  text-align: center;
+}
+
+footer p:first-child {
+  font-family: 'Architects Daughter', cursive;
+  color: white;
+  font-size: 20px;
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+footer p:nth-child(2) {
+  margin-bottom: 0;
+  padding-bottom: 15px;
+}

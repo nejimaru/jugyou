@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flexbox</title>
+</head>
+<body>
+  <style>
+    div.flex {
+      display: flex;
+      justify-content: space-between; /*commander le flex de gauche à droite center flex-start flex-end space space-between*/
+      align-items: center; /*commander le flex haut en bas: flex-start center ou flex-end*/
+      /*flex-direction: row-reverse;*/ /*orizontale : row , verticale:column */
+      height: 50vh;
+      background-color: red;
+    }
+
+    div.rectangle {
+      width: 200px;
+      height: 100px;
+      background-color: blue;
+    /*  margin-right: 20px;*/
+      font-size: 25px;
+      color: white;
+      /*display: inline-block;*/
+    }
+
+    #milieu {
+      align-self: flex-end;
+    ²
+    }
+
+
+  </style>
+    <div class="flex">
+      <div class="rectangle">1</div>
+      <div id="milieu" class="rectangle">2</div>
+      <div class="rectangle">3</div>
+    </div>
+</body>
+</html>

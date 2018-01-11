@@ -1,0 +1,67 @@
+header {
+  background-color: #ddd;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto.
+}
+
+#accueil {
+  background-image: url(http://www.boucherie-halal34.com/ressources/images/388d7c7c6f46.jpg);
+  background-size: cover; /*l'image en background est visible entierement ou mieux visible*/
+  height: 50vh;
+
+}
+
+div.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  align-items: center;
+  color: white;
+}
+
+#accueil h2 {
+  margin-top: 0;
+  text-shadow: 2px 2px 5px black;
+}
+
+#accueil a {
+  border-radius: 5px;
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#services {
+  text-align: center;
+
+}
+
+#services div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+div.columns {
+  display: flex;
+}
+
+#services article {
+  padding: 20px;
+  margin: 10px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+@media screen and (max-width:500px){
+  
+}

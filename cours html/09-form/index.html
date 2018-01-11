@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulaires</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <h1>Étudions les Formulaires</h1>
+
+      <form action="#" method=""> <!-- 2 method: get et post action:ou j'envoie get et post-->
+          <label for="nom">Nom de famille : </label>
+          <input type="text" name="nom" id="nom" placeholder="Tapez votre nom de famille" required> <!--type: on entre du text, name: nom, le id ,-->
+
+          <label for="prenom">prenom :</label>
+          <input type="text" name="prenom" id="prenom" placeholder="Tapez votre prenom" required>
+
+          <label for="email">Email :</label>
+          <input type="email" name="email" placeholder="Tapez votre adresse email" id="email">
+
+          <label for="age">Age : </label>
+          <input type="number" name:"age" placeholder="votre age" id="age" required min="18" max="120" step="1">
+
+        <!--  <label for="prix">Prix recherché : </label><input type="range" name="prix" id="prix" placeholder=""> -->
+
+
+          <label for="">Date inscription : </label>
+          <input type="date" name="date-inscription" id="date-inscription" placeholder="Tapez la date d'inscription" required>
+
+          <h2>Préférences</h2>
+          <h3>Languages connus : </h3>
+
+          <input type="checkbox" name="langage-js"  id="langage-js">
+          <label for="langage-js">Javascript</label>
+
+          <input type="checkbox" name="langage-jcss"  id="langage-css">
+          <label for="langage-css">CSS</label>
+
+          <input type="checkbox" name="langage-html"  id="langage-html">
+          <label for="langage-html">HTML</label>
+
+          <h3>Niveau d'études</h3>
+          <input type="radio" name="etudes" id="bac" value="">
+          <label for="bac">Bac</label>
+
+          <input type="radio" name="etudes" id="bacplus2" value="">
+          <label for="bacplus2">Bac +2</label>
+
+          <h3>Années d'expérience</h3>
+          <select class="" name="experience" id="experience">
+            <option value="">-- Choisissez votre expérience--</option>
+            <option value="1">1 année d'expérience</option> <!--option{$ année d'\expérience}*10-->
+            <option value="2">2 année d'expérience</option>
+            <option value="3">3 année d'expérience</option>
+            <option value="4">4 année d'expérience</option>
+            <option value="5">5 année d'expérience</option>
+            <option value="6">6 année d'expérience</option>
+            <option value="7">7 année d'expérience</option>
+            <option value="8">8 année d'expérience</option>
+            <option value="9">9 année d'expérience</option>
+            <option value="10">10 année d'expérience</option>
+          </select>
+
+          <label for="precision">Précision : </label>
+          <textarea name="precision" placeholder="Préciser votre expérience professionnelle" rows="10" cols="30"></textarea>
+
+
+          <button type="submit">Inscription</button>
+
+      </form>
+
+  </body>
+</html>
